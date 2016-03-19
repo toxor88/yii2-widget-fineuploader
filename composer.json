@@ -1,0 +1,21 @@
+{
+    "name": "toxor88/yii2-widget-fineuploader",
+    "description": "Enhanced Yii2 wrapper for the Fineuploader.js plugin.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","fineuploader"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Steven Cash",
+            "email": "toxor88@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "toxor88\\fineuploader\\": ""
+        }
+    }
+}

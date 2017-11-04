@@ -11,14 +11,10 @@ namespace toxor88\fineuploader;
  *
  * @package toxor88\fineuploader
  */
-class FineuploaderJqueryAsset extends \yii\web\AssetBundle
+class FineuploaderJqueryAsset extends FineuploaderAsset
 {
-    public $sourcePath = '@toxor88/fineuploader/assets';
     public $js = [
-        'jquery.fine-uploader/jquery.fine-uploader.min.js'
-    ];
-    public $css = [
-        'jquery.fine-uploader/fine-uploader.min.css',
+        'jquery.fine-uploader.min.js'
     ];
     public $depends = [
         'yii\web\JqueryAsset',
